@@ -77,6 +77,12 @@ body {
     overflow: hidden;
   }
 
+  @media (max-width:992px) {
+    .hero {
+      height: 90vh;
+    }
+  }
+
   .hero img {
     position: absolute;
     top: 0;
