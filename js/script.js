@@ -50,9 +50,9 @@ $(function(){
                     items:1,
                     nav:true
                 },
-                600:{
+                624:{
                     items:3,
-                    nav:false
+                    nav:true
                 },
                 992:{
                     items:5,
