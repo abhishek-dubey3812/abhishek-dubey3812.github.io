@@ -81,11 +81,11 @@ body {
       height: 90vh;
     }
   }
-  /* @media (max-width:540px){
+  @media (max-width:468px){
     .hero {
       height: 85vh;
     }
-  } */
+  }
 
 
   .hero img {
