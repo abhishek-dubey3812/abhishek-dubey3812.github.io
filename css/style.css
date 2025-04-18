@@ -121,8 +121,17 @@ body {
   @media (max-width:750px) {
     .myproject {
       margin-top: 12px;
-      padding-left: 68px;
-      padding-right: 68px;
+      padding-left: 65px;
+      padding-right: 65px;
+      box-sizing: border-box;
+    }
+  }
+
+  @media (max-width:624px) {
+    .myproject {
+      margin-top: 18px;
+      padding-left: 110px;
+      padding-right: 110px;
       box-sizing: border-box;
     }
   }
