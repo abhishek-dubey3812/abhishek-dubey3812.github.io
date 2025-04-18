@@ -76,6 +76,18 @@ body {
     color: #ffffff;
     overflow: hidden;
   }
+  @media (max-width:992px){
+    .hero {
+      height: 90vh;
+    }
+  }
+  /* @media (max-width:540px){
+    .hero {
+      height: 85vh;
+    }
+  } */
+
+
   .hero img {
     position: absolute;
     top: 0;
