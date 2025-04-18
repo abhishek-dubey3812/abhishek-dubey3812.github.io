@@ -68,11 +68,11 @@ body {
 .hero {
     position: relative;
     background: rgba(0, 0, 0, 0.6);
-    height: 100vh;
+    /* height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    text-align: center; */
     color: #ffffff;
     overflow: hidden;
   }
