@@ -108,6 +108,15 @@ body {
     box-sizing: border-box;
   }
 
+  @media (max-width:768) {
+    .myproject {
+      margin-top: 20px;
+      padding-left: 120px;
+      padding-right: 120px;
+      box-sizing: border-box;
+    }
+  }
+
   .myproject p{
     color: rgb(44, 44, 128);
     text-align: center;
