@@ -160,21 +160,20 @@ body {
   }
 
   .aboutme h2 {
-    margin-top: 30px;
+    margin-top: 25px;
     text-align: center;
     color: #4c42e0;
   }
 
   .aboutme p {
-    margin-top: 35px;
-    margin-bottom: 20px;
-    width: 80%;
+    margin-bottom: 15px;
+    width: 85%;
     text-align: justify;
     margin: auto;
-    color: #362fa0;
+    color: #2e2791;
     font-weight: 400;
     font-size: 18px;
-    letter-spacing: 0.3px;
+    letter-spacing: 0.015rem;
   }
 
   .projects h2 {
@@ -182,7 +181,7 @@ body {
     color: #4c42e0;
   }
   .projects p {
-    margin-top: 25px;
+    margin-top: 15px;
     text-align: center;
     color: #3830b1;
     font-weight: 500;
