@@ -83,7 +83,7 @@ body {
   }
   @media (max-width:468px){
     .hero {
-      height: 85vh;
+      height: 80vh;
     }
   }
 
