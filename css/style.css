@@ -166,15 +166,15 @@ body {
   }
 
   .aboutme p {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     width: 85%;
     text-align: justify;
     margin: auto;
     color: #2e2791;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 0.015rem;
-    line-height: 1.4rem;
+    line-height: 1.3rem;
   }
 
   .projects h2 {
