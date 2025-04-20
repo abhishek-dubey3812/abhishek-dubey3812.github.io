@@ -38,28 +38,32 @@ $(function(){
           }
           typeEffect();
       }
-    });      
-      
+    });     
+
     $(document).ready(function(){
         $(".owl-carousel").owlCarousel({
             loop:true,
-            margin:100,
+            dots:false,
+            autoplay: true,    
+            autoplayTimeout: 2000,
+            autoplayHoverPause: true,
+            margin:120,
             responsiveClass:true,
             responsive:{
                 0:{
                     items:1,
-                    nav:true
+                    nav:false
                 },
                 624:{
                     items:3,
-                    nav:true
+                    nav:false
                 },
                 992:{
                     items:5,
-                    nav:true,
+                    nav:false,
                     loop:true
                 }
             }
         });
       });
-      
+     

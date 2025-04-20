@@ -8,7 +8,7 @@
 body {
     font-family: "Maven Pro", sans-serif;
   font-optical-sizing: auto;
-  background-color: azure;
+  background-color: rgb(228, 243, 241);
 }
 #menu {
     display:none;
@@ -65,6 +65,7 @@ body {
 }
 
 /* Hero Section */
+
 .hero {
     position: relative;
     background: rgba(0, 0, 0, 0.6);
@@ -111,53 +112,43 @@ body {
     color: #ffffff;
   }
 
-  .myproject {
-    margin-top: 25px;
-    padding-left: 160px;
-    padding-right: 160px;
-    box-sizing: border-box;
-  }
-
-  @media (max-width:992px) {
-    .myproject {
-      margin-top: 20px;
-      padding-left: 120px;
-      padding-right: 120px;
-      box-sizing: border-box;
-    }
-  }
-
-  @media (max-width:750px) {
-    .myproject {
-      margin-top: 12px;
-      padding-left: 65px;
-      padding-right: 65px;
-      box-sizing: border-box;
-    }
-  }
-
-  @media (max-width:624px) {
-    .myproject {
-      margin-top: 18px;
-      padding-left: 100px;
-      padding-right: 100px;
-      box-sizing: border-box;
-    }
-  }
-
-
-  .myproject p{
-    color: rgb(44, 44, 128);
-    text-align: center;
-    margin-top: 10px;
-    font-weight: 600;
-  }
+  /* skills section */
 
   .myskills h4 {
     margin-top: 35px;
     text-align: center;
     color: #4c42e0;
   }
+   .wrapper {
+    padding: 20px 160px 0px 160px;
+    }
+
+    @media (max-width:992px) {
+      .wrapper {
+        padding: 20px 120px 0px 120px;
+        }
+    }
+    @media (max-width:768px) {
+      .wrapper {
+        padding: 20px 100px 0px 100px;
+        }
+    }
+    
+
+   .myskills1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   } 
+
+   .myskills1 p {
+    padding-top: 10px;
+    font-weight: 600px;
+    font-size: 16px;
+   }
+
+   /* about section */
 
   .aboutme h2 {
     margin-top: 25px;
