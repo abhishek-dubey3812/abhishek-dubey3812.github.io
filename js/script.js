@@ -40,6 +40,8 @@ $(function(){
       }
     });     
 
+// skills section
+
     $(document).ready(function(){
         $(".owl-carousel").owlCarousel({
             loop:true,
@@ -67,3 +69,41 @@ $(function(){
         });
       });
      
+//    project section   
+
+// === FILTER SYSTEM ===
+const filterButtons = document.querySelectorAll(".filter-btn");
+const projectCards = document.querySelectorAll(".project-card");
+
+filterButtons.forEach(button => {
+  button.addEventListener("click", () => {
+    document.querySelector(".filter-btn.active")?.classList.remove("active");
+    button.classList.add("active");
+    const category = button.getAttribute("data-filter");
+
+    projectCards.forEach(card => {
+      const cardCategory = card.getAttribute("data-category");
+      card.style.display = (category === "all" || cardCategory === category) ? "block" : "none";
+    });
+  });
+});
+
+// === LIGHTBOX ZOOM SYSTEM ===
+const thumbnails = document.querySelectorAll('.thumbnail');
+const lightbox = document.getElementById('lightbox');
+const lightboxImg = lightbox.querySelector('img');
+
+thumbnails.forEach(img => {
+  img.addEventListener('click', () => {
+    const fullImg = img.getAttribute('data-full');
+    if (fullImg) {
+      lightboxImg.src = fullImg;
+      lightbox.classList.add('active');
+    }
+  });
+});
+
+lightbox.addEventListener('click', () => {
+  lightbox.classList.remove('active');
+  lightboxImg.src = "";
+});

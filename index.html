@@ -9,23 +9,24 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
     
-    
     <!-- Bootstrap CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
    
     <!-- main css & js -->
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="js/jquery.slicknav.js"></script>
-    <script src="js/owl.carousel.js"></script>
-    <script src="js/script.js"></script>
+    
 </head>
 <body>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
      <ul id="menu">
         <div class="nav">
             <li><a href="#hero">Home</a></li>
@@ -86,48 +87,107 @@
           </div>
     </div>
    
-
-
-  
-    <div id="myproject"class="projects">
-        <h2>
-            MY Projects
-        </h2>
-        <p>To view the portfolio please click on the links given below. </p>
-    </div>
-
-        <div class="hero_box">
-       
-            <div class="main_boxes">
-            <div class="figma">
-                <a href="figma.html">
-                    <p>
-                    FIGMA
-                </p>
-            </a>
-            </div>
-        </div>
-        
-        <div class="main_boxes">
-            <div class="coding">
-                <a href="#">
-                    <p>
-                        HTML&CSS
-                    </p>
-                </a>
-            </div>
-        </div>
-       
-        <div class="main_boxes">
-            <div class="photoshop">
-                <a href="photoshop.html">
-                    <p>
-                        PHOTOSHOP
-                    </p>
-                </a>
-            </div>
-        </div>
-    </div>
     
+
+        <section class="projects-section">
+            <h2 class="section-title">🎨 My Portfolio Projects</h2>
+          
+            <!-- Filters -->
+            <div class="filter-buttons">
+              <button class="filter-btn active" data-filter="all">All</button>
+              <button class="filter-btn" data-filter="figma">Figma</button>
+              <button class="filter-btn" data-filter="photoshop">Photoshop</button>
+              <button class="filter-btn" data-filter="coding">Coding</button>
+            </div>
+          
+            <!-- Project Cards -->
+            <div class="projects-grid">
+          
+              <!-- Figma Project -->
+              <div class="project-card" data-category="figma">
+                <img src="img/f2.svg" data-full="img/f2.svg" alt="HomeHive UI" class="thumbnail">
+                <div class="project-info">
+                  <h4>HomeHive UI</h4>
+                  <p>Real Estate UI in Figma</p>
+                </div>
+              </div>
+          
+              <!-- Photoshop Project -->
+              <div class="project-card" data-category="photoshop">
+                <img src="img/ps1.jpg" data-full="img/ps1.jpg" alt="Poster Design" class="thumbnail">
+                <div class="project-info">
+                  <h4>Dashboard</h4>
+                  <p>Photoshop Creative Design</p>
+                </div>
+              </div>
+
+              <!-- Figma Project -->
+              <div class="project-card" data-category="figma">
+                <img src="img/f2.svg" data-full="img/f2.svg" alt="HomeHive UI" class="thumbnail">
+                <div class="project-info">
+                  <h4>HomeHive UI</h4>
+                  <p>Real Estate UI in Figma</p>
+                </div>
+              </div>
+          
+              <!-- Photoshop Project -->
+              <div class="project-card" data-category="photoshop">
+                <img src="img/ps1.jpg" data-full="img/ps1.jpg" alt="Poster Design" class="thumbnail">
+                <div class="project-info">
+                  <h4>Dashboard</h4>
+                  <p>Photoshop Creative Design</p>
+                </div>
+              </div>
+
+              <!-- Figma Project -->
+              <div class="project-card" data-category="figma">
+                <img src="img/f2.svg" data-full="img/f2.svg" alt="HomeHive UI" class="thumbnail">
+                <div class="project-info">
+                  <h4>HomeHive UI</h4>
+                  <p>Real Estate UI in Figma</p>
+                </div>
+              </div>
+          
+              <!-- Photoshop Project -->
+              <div class="project-card" data-category="photoshop">
+                <img src="img/ps1.jpg" data-full="img/ps1.jpg" alt="Poster Design" class="thumbnail">
+                <div class="project-info">
+                  <h4>Dashboard</h4>
+                  <p>Photoshop Creative Design</p>
+                </div>
+              </div>
+
+               <!-- Figma Project -->
+               <div class="project-card" data-category="figma">
+                <img src="img/f2.svg" data-full="img/f2.svg" alt="HomeHive UI" class="thumbnail">
+                <div class="project-info">
+                  <h4>HomeHive UI</h4>
+                  <p>Real Estate UI in Figma</p>
+                </div>
+              </div>
+          
+              <!-- Coding Project -->
+              <div class="project-card" data-category="coding">
+                <img src="assets/thumbs/portfolio-thumb.png" data-full="assets/full/portfolio-full.png" alt="Portfolio Website" class="thumbnail">
+                <div class="project-info">
+                  <h4>Portfolio Website</h4>
+                  <p>HTML, CSS, JS, Bootstrap</p>
+                </div>
+              </div>
+          
+              <!-- Add more project cards here -->
+          
+            </div>
+          </section>
+          
+          <!-- Lightbox Full Image Preview -->
+          <div class="lightbox" id="lightbox">
+            <img src="" alt="Full Project View">
+          </div>
+          
+      
+          <script src="js/jquery.slicknav.js"></script>
+          <script src="js/owl.carousel.js"></script>
+          <script src="js/script.js"></script>
 </body>
 </html>
