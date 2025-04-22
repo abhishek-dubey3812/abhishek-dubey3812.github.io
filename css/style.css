@@ -8,6 +8,7 @@
 body {
     font-family: "Maven Pro", sans-serif;
   font-optical-sizing: auto;
+  background-color: #eee;
 }
 #menu {
     display:none;
