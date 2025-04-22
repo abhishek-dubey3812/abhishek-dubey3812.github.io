@@ -112,19 +112,17 @@ lightbox.addEventListener('click', () => {
 
 // loder animation
 
-
-
 AOS.init({
-  once: false, // animation will run on every scroll
+  once: false, 
   offset: 100
 });
 
 // Loader fade out
-window.addEventListener("load", () => {
-  const loader = document.getElementById('loader-wrapper');
-  document.body.classList.add('loaded');
-  setTimeout(() => {
-    loader.style.opacity = '0';
-    setTimeout(() => loader.style.display = 'none', 800);
-  }, 1500);
-});
+// window.addEventListener("load", () => {
+//   const loader = document.getElementById('loader-wrapper');
+//   document.body.classList.add('loaded');
+//   setTimeout(() => {
+//     loader.style.opacity = '0';
+//     setTimeout(() => loader.style.display = 'none', 800);
+//   }, 1500);
+// });
